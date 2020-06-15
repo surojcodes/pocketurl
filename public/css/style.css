@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+:root{
+    --primary:#34222e;
+    --secondary:#e2434b;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.text-custom-primary{
+    color: var(--primary);
+}
+.text-custom-secondary{
+    color: var(--secondary);
+}
+.display-5{
+    font-size: 1.7em;
+}
+.display-6{
+    font-size: 1.3em;
+}
+.bold{
+font-weight: bold;
+}
+main{
+    height:80vh;
+}
+.logo{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 3.2em;
+    color: var(--secondary);
+    margin-bottom: 1.5em;
+}
+#search{
+    width:70%;
+    margin:0 auto;
+}
+input[type='url']{
+    border:none;
+    font-size: 1.3em;
+    padding:1em;
+    color:var(--primary);
+}
+input[type='url']:focus{
+    outline:none;
+    box-shadow: none;
+}
+.form-group{
+    border:1px solid #ccc;
+    border-radius: 0.2em;
+    box-shadow: 3px 3px 3px #ccc;
+}
+.btn-custom{
+    padding:0.5em;
+    background-color: var(--secondary);
+    color:#fff;
+    font-size: 1.2em;
+    flex-basis: 15%;
+    height: 90%;
+}
+.btn-custom:hover{
+    color: var(--primary);
+}
+#search-bar{
+    flex-basis: 80%;
+}
+::placeholder{
+    color:var(--primary);
+}
+
+@media(max-width:991px){
+    input[type='url']{
+        font-size: 1.1em;
+    }
+    .btn-custom{
+        font-size: 1.1em;
+    }
+    #search{
+        width:80%;
+    }
+    .display-5{
+        font-size: 1.6em;
+    }
+    .display-6{
+        font-size: 1.2em;
+    }
+}
+@media(max-width:762px){
+    input[type='url']{
+        font-size: 1em;
+    }
+    .btn-custom{
+        font-size: 1em;
+    }
+    #search{
+        width:90%;
+    }
+    .display-5{
+        font-size: 1.5em;
+    }
+    .display-6{
+        font-size: 1.1em;
+    }
+}
+
+@media(max-width:413px){
+    .form-group{
+        border:none;
+        box-shadow: none;
+    }
+    input[type='url']{
+        border:1px solid #ccc;
+        border-radius: 0.2em;
+        box-shadow: 3px 3px 3px #ccc;
+    }
+    #search-bar{
+        flex-basis: 100%;
+    }
+    .btn-custom{
+        margin-top:1.2em;
+        flex-basis: 40%;
+    }
+    .display-5{
+        font-size: 1.4em;
+    }
+    .display-6{
+        font-size: 1em;
+    }
+}

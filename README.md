@@ -21,7 +21,7 @@ npm start
 To shorten the URL
 ```
 Request-Type: POST
-ROUTE: http://yourdomain.com
+ROUTE: http://yourdomain.com/
 Headers: {
     Content-Type:application/json
 }

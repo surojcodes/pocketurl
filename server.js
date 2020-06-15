@@ -2,6 +2,7 @@ const express = require('express');
 const connectDB = require('./config/db');
 const dotenv = require('dotenv');
 const urlRouter = require('./routes/url');
+const path = require('path');
 
 // security
 const mongoSanitize = require('express-mongo-sanitize');
@@ -22,6 +23,9 @@ app.use(express.json());
 
 // connect to mongodb
 connectDB();
+
+// static site
+app.use(express.static(path.join(__dirname, 'public')));
 
 // mount the router
 app.use('/', urlRouter);
