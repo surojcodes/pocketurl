@@ -56,8 +56,6 @@ As seen, send a GET request to "shortURl" to be redirected to the original page.
 * NoSQL injection secure
 * Security headers has been added
 * Cross-site scripting(XSS) secure
-* Rate Limit has been set
-  * An IP can request upto 100 times within 10 min
 * Cross-Origin Resource Sharing (CORS) enabled
 * HTTP Param Pollution prevented
 

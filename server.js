@@ -8,7 +8,6 @@ const path = require('path');
 const mongoSanitize = require('express-mongo-sanitize');
 const helmet = require('helmet');
 const xss = require('xss-clean');
-const rateLimit = require('express-rate-limit');
 const hpp = require('hpp');
 const cors = require('cors');
 
@@ -38,13 +37,6 @@ app.use(helmet());
 
 // prevnt XSS attacks
 app.use(xss());
-
-// rate limiting
-const limiter = rateLimit({
-    windowMs: 10 * 60 * 1000,     // 10 mins
-    max: 100
-});
-app.use(limiter);
 
 //prevent HTTP param polution
 app.use(hpp());

@@ -10,7 +10,6 @@ const pocketifyAndDisplay = (e) => {
         resultUI.innerHTML = `<p class="text-secondary display-6 cold">Your Shorter URL is </p>
                             <hr style="width:15%">
                             <p class="display-5 text-custom-secondary bold" id="shortUrl">${data.data.shortUrl}</p>`
-
     })
         .catch(err => {
             // display error message
