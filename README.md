@@ -1,5 +1,6 @@
 # Pocket URL
-> REST API using Node.js (Express) and MongoDB (mongoose) for URL shortening app
+> A full stack Javascript URL shortening app using API first approach. 
+> API made using Node.js (Express) and MongoDB (mongoose) and frontend using axios
 
 ## Usage
 Rename config/config.env.env to config/config.env and update the settings values of your own
