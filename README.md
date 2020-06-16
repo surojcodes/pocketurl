@@ -52,6 +52,9 @@ As seen, send a GET request to "shortURl" to be redirected to the original page.
 * Get the short URL
 * Use the short URL to access original page
 
+## FrontEnd
+Front end for the API has been coded in ES6+ Javascript using axios for communicating with API
+
 #### Security Features
 * NoSQL injection secure
 * Security headers has been added
@@ -61,6 +64,6 @@ As seen, send a GET request to "shortURl" to be redirected to the original page.
 
 ***
 ## Demo
-This will have a live version soon.
+This is live [here](https://pocketifyurl.herokuapp.com/)
 * Version **1.0**
 * Author **Suroj Maharjan**
