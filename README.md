@@ -65,6 +65,8 @@ Front end for the API has been coded in ES6+ Javascript using axios for communic
 
 ***
 ## Demo
-This is live [here](https://pocketifyurl.herokuapp.com/)
+![alt tag](https://surojmaharjan0.github.io/projectimages/images/pocketurl.PNG)
+
+This app is live [here](https://pocketifyurl.herokuapp.com/)
 * Version **1.0**
 * Author **Suroj Maharjan**
